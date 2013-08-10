@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2B659A17B6CB1C00EA047B /* FDMetadataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9516EF17B6BFBE0088EEE2 /* FDMetadataContainer.m */; };
+		1A2B65A317B6D3B200EA047B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B65A217B6D3B200EA047B /* MainMenu.xib */; };
+		1A2B65AA17B6D3F100EA047B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B65A617B6D3F100EA047B /* main.m */; };
+		1A2B65AB17B6D3F100EA047B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B65A817B6D3F100EA047B /* Credits.rtf */; };
+		1A2B65AF17B6D70900EA047B /* Crater Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B65AD17B6D70900EA047B /* Crater Lake.jpg */; };
+		1A2B65B017B6D70900EA047B /* Mt Hood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B65AE17B6D70900EA047B /* Mt Hood.jpg */; };
+		1A2B65B517B6E25100EA047B /* FDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B65B417B6E25100EA047B /* FDMainViewController.m */; };
+		1A2B65B717B70DA700EA047B /* blank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B65B617B70DA700EA047B /* blank.jpg */; };
+		1A5745C617B84F9900C12A80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5745C517B84F9900C12A80 /* QuartzCore.framework */; };
+		1A5745C917B85B9A00C12A80 /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5745C817B85B9A00C12A80 /* NSString+Utilities.m */; };
+		1A5745DE17B898A900C12A80 /* FDDataBit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5745DD17B898A900C12A80 /* FDDataBit.m */; };
+		1A5745DF17B8A7B400C12A80 /* FDDataBit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5745DD17B898A900C12A80 /* FDDataBit.m */; };
+		1A5745E717B8BE0900C12A80 /* FDStaticMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5745E617B8BE0900C12A80 /* FDStaticMapView.m */; };
+		1A6FA0B117B5F8AD00EAF2A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */; };
+		1A6FA0C417B5F8AD00EAF2A9 /* FDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA0C317B5F8AD00EAF2A9 /* FDAppDelegate.m */; };
+		1A9516F017B6BFBE0088EEE2 /* FDMetadataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9516EF17B6BFBE0088EEE2 /* FDMetadataContainer.m */; };
+		1AC870FC17B6C99D0092EDD2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9516F717B6C71A0088EEE2 /* SenTestingKit.framework */; };
+		1AC870FD17B6C99D0092EDD2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */; };
+		1AC8710A17B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8710917B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m */; };
+		1AF22A3C17BB44BE005AB6FA /* FDDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF22A3B17BB44BE005AB6FA /* FDDropView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2B659E17B6D32400EA047B /* EXIF Cloner Test Suite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EXIF Cloner Test Suite-Info.plist"; sourceTree = "<group>"; };
+		1A2B659F17B6D32400EA047B /* EXIF Cloner Test Suite-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXIF Cloner Test Suite-Prefix.pch"; sourceTree = "<group>"; };
+		1A2B65A217B6D3B200EA047B /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		1A2B65A517B6D3F100EA047B /* EXIF Cloner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXIF Cloner-Prefix.pch"; sourceTree = "<group>"; };
+		1A2B65A617B6D3F100EA047B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A2B65A817B6D3F100EA047B /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		1A2B65A917B6D3F100EA047B /* EXIF Cloner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EXIF Cloner-Info.plist"; sourceTree = "<group>"; };
+		1A2B65AD17B6D70900EA047B /* Crater Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crater Lake.jpg"; sourceTree = "<group>"; };
+		1A2B65AE17B6D70900EA047B /* Mt Hood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mt Hood.jpg"; sourceTree = "<group>"; };
+		1A2B65B317B6E25100EA047B /* FDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDMainViewController.h; sourceTree = "<group>"; };
+		1A2B65B417B6E25100EA047B /* FDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDMainViewController.m; sourceTree = "<group>"; };
+		1A2B65B617B70DA700EA047B /* blank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blank.jpg; sourceTree = "<group>"; };
+		1A5745C517B84F9900C12A80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A5745C717B85B9A00C12A80 /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		1A5745C817B85B9A00C12A80 /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
+		1A5745DC17B898A900C12A80 /* FDDataBit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDataBit.h; sourceTree = "<group>"; };
+		1A5745DD17B898A900C12A80 /* FDDataBit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDataBit.m; sourceTree = "<group>"; };
+		1A5745E517B8BE0900C12A80 /* FDStaticMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStaticMapView.h; sourceTree = "<group>"; };
+		1A5745E617B8BE0900C12A80 /* FDStaticMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStaticMapView.m; sourceTree = "<group>"; };
+		1A6FA0AD17B5F8AD00EAF2A9 /* EXIF Cloner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EXIF Cloner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A6FA0B317B5F8AD00EAF2A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A6FA0B517B5F8AD00EAF2A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A6FA0C217B5F8AD00EAF2A9 /* FDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDAppDelegate.h; sourceTree = "<group>"; };
+		1A6FA0C317B5F8AD00EAF2A9 /* FDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAppDelegate.m; sourceTree = "<group>"; };
+		1A9516EE17B6BFBE0088EEE2 /* FDMetadataContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDMetadataContainer.h; sourceTree = "<group>"; };
+		1A9516EF17B6BFBE0088EEE2 /* FDMetadataContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDMetadataContainer.m; sourceTree = "<group>"; };
+		1A9516F717B6C71A0088EEE2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EXIF Cloner Test Suite.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC8710817B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXIF_Cloner_Test_Suite.h; sourceTree = "<group>"; };
+		1AC8710917B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXIF_Cloner_Test_Suite.m; sourceTree = "<group>"; };
+		1AF22A3A17BB44BE005AB6FA /* FDDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDropView.h; sourceTree = "<group>"; };
+		1AF22A3B17BB44BE005AB6FA /* FDDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDropView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6FA0AA17B5F8AD00EAF2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5745C617B84F9900C12A80 /* QuartzCore.framework in Frameworks */,
+				1A6FA0B117B5F8AD00EAF2A9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC870F717B6C99D0092EDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC870FC17B6C99D0092EDD2 /* SenTestingKit.framework in Frameworks */,
+				1AC870FD17B6C99D0092EDD2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2B659C17B6D30A00EA047B /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B65AD17B6D70900EA047B /* Crater Lake.jpg */,
+				1A2B65AE17B6D70900EA047B /* Mt Hood.jpg */,
+				1A2B65B617B70DA700EA047B /* blank.jpg */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		1A2B659D17B6D32400EA047B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B659E17B6D32400EA047B /* EXIF Cloner Test Suite-Info.plist */,
+				1A2B659F17B6D32400EA047B /* EXIF Cloner Test Suite-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A2B65A117B6D3B200EA047B /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B65A217B6D3B200EA047B /* MainMenu.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		1A2B65A417B6D3F100EA047B /* Misc Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1A5745C717B85B9A00C12A80 /* NSString+Utilities.h */,
+				1A5745C817B85B9A00C12A80 /* NSString+Utilities.m */,
+				1A2B65A517B6D3F100EA047B /* EXIF Cloner-Prefix.pch */,
+				1A2B65A617B6D3F100EA047B /* main.m */,
+			);
+			path = "Misc Sources";
+			sourceTree = "<group>";
+		};
+		1A2B65A717B6D3F100EA047B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B65A817B6D3F100EA047B /* Credits.rtf */,
+				1A2B65A917B6D3F100EA047B /* EXIF Cloner-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A2B65B117B6E11900EA047B /* Metadata container */ = {
+			isa = PBXGroup;
+			children = (
+				1A5745DC17B898A900C12A80 /* FDDataBit.h */,
+				1A5745DD17B898A900C12A80 /* FDDataBit.m */,
+				1A9516EE17B6BFBE0088EEE2 /* FDMetadataContainer.h */,
+				1A9516EF17B6BFBE0088EEE2 /* FDMetadataContainer.m */,
+			);
+			name = "Metadata container";
+			sourceTree = "<group>";
+		};
+		1A2B65B217B6E12600EA047B /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1AF22A3D17BB511F005AB6FA /* Views */,
+				1AF22A3E17BB5124005AB6FA /* View Controller */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		1A6FA0A417B5F8AD00EAF2A9 = {
+			isa = PBXGroup;
+			children = (
+				1A6FA0B617B5F8AD00EAF2A9 /* EXIF Cloner */,
+				1AC8710217B6C99D0092EDD2 /* EXIF Cloner Test Suite */,
+				1A6FA0AF17B5F8AD00EAF2A9 /* Frameworks */,
+				1A6FA0AE17B5F8AD00EAF2A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6FA0AE17B5F8AD00EAF2A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6FA0AD17B5F8AD00EAF2A9 /* EXIF Cloner.app */,
+				1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6FA0AF17B5F8AD00EAF2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6FA0B317B5F8AD00EAF2A9 /* AppKit.framework */,
+				1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */,
+				1A5745C517B84F9900C12A80 /* QuartzCore.framework */,
+				1A6FA0B517B5F8AD00EAF2A9 /* Foundation.framework */,
+				1A9516F717B6C71A0088EEE2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A6FA0B617B5F8AD00EAF2A9 /* EXIF Cloner */ = {
+			isa = PBXGroup;
+			children = (
+				1A6FA0C217B5F8AD00EAF2A9 /* FDAppDelegate.h */,
+				1A6FA0C317B5F8AD00EAF2A9 /* FDAppDelegate.m */,
+				1A2B65B217B6E12600EA047B /* User Interface */,
+				1A2B65B117B6E11900EA047B /* Metadata container */,
+				1A2B65A117B6D3B200EA047B /* XIB */,
+				1A2B65A417B6D3F100EA047B /* Misc Sources */,
+				1A2B65A717B6D3F100EA047B /* Supporting Files */,
+			);
+			path = "EXIF Cloner";
+			sourceTree = "<group>";
+		};
+		1AC8710217B6C99D0092EDD2 /* EXIF Cloner Test Suite */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8710817B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.h */,
+				1AC8710917B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m */,
+				1A2B659C17B6D30A00EA047B /* Pictures */,
+				1A2B659D17B6D32400EA047B /* Supporting Files */,
+			);
+			path = "EXIF Cloner Test Suite";
+			sourceTree = "<group>";
+		};
+		1AF22A3D17BB511F005AB6FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AF22A3A17BB44BE005AB6FA /* FDDropView.h */,
+				1AF22A3B17BB44BE005AB6FA /* FDDropView.m */,
+				1A5745E517B8BE0900C12A80 /* FDStaticMapView.h */,
+				1A5745E617B8BE0900C12A80 /* FDStaticMapView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1AF22A3E17BB5124005AB6FA /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B65B317B6E25100EA047B /* FDMainViewController.h */,
+				1A2B65B417B6E25100EA047B /* FDMainViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6FA0AC17B5F8AD00EAF2A9 /* EXIF Cloner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6FA0CA17B5F8AD00EAF2A9 /* Build configuration list for PBXNativeTarget "EXIF Cloner" */;
+			buildPhases = (
+				1A6FA0A917B5F8AD00EAF2A9 /* Sources */,
+				1A6FA0AA17B5F8AD00EAF2A9 /* Frameworks */,
+				1A6FA0AB17B5F8AD00EAF2A9 /* Resources */,
+				1A6FA0CD17B5F9F700EAF2A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EXIF Cloner";
+			productName = "EXIF Cloner";
+			productReference = 1A6FA0AD17B5F8AD00EAF2A9 /* EXIF Cloner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AC870FA17B6C99D0092EDD2 /* EXIF Cloner Test Suite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC8710C17B6C99D0092EDD2 /* Build configuration list for PBXNativeTarget "EXIF Cloner Test Suite" */;
+			buildPhases = (
+				1AC870F617B6C99D0092EDD2 /* Sources */,
+				1AC870F717B6C99D0092EDD2 /* Frameworks */,
+				1AC870F817B6C99D0092EDD2 /* Resources */,
+				1AC870F917B6C99D0092EDD2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EXIF Cloner Test Suite";
+			productName = "EXIF Cloner Test Suite";
+			productReference = 1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6FA0A517B5F8AD00EAF2A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Florian Denis";
+			};
+			buildConfigurationList = 1A6FA0A817B5F8AD00EAF2A9 /* Build configuration list for PBXProject "EXIF Cloner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A6FA0A417B5F8AD00EAF2A9;
+			productRefGroup = 1A6FA0AE17B5F8AD00EAF2A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6FA0AC17B5F8AD00EAF2A9 /* EXIF Cloner */,
+				1AC870FA17B6C99D0092EDD2 /* EXIF Cloner Test Suite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6FA0AB17B5F8AD00EAF2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B65A317B6D3B200EA047B /* MainMenu.xib in Resources */,
+				1A2B65AB17B6D3F100EA047B /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC870F817B6C99D0092EDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B65AF17B6D70900EA047B /* Crater Lake.jpg in Resources */,
+				1A2B65B017B6D70900EA047B /* Mt Hood.jpg in Resources */,
+				1A2B65B717B70DA700EA047B /* blank.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6FA0CD17B5F9F700EAF2A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+		1AC870F917B6C99D0092EDD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6FA0A917B5F8AD00EAF2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6FA0C417B5F8AD00EAF2A9 /* FDAppDelegate.m in Sources */,
+				1A9516F017B6BFBE0088EEE2 /* FDMetadataContainer.m in Sources */,
+				1A2B65AA17B6D3F100EA047B /* main.m in Sources */,
+				1A2B65B517B6E25100EA047B /* FDMainViewController.m in Sources */,
+				1A5745C917B85B9A00C12A80 /* NSString+Utilities.m in Sources */,
+				1A5745DE17B898A900C12A80 /* FDDataBit.m in Sources */,
+				1A5745E717B8BE0900C12A80 /* FDStaticMapView.m in Sources */,
+				1AF22A3C17BB44BE005AB6FA /* FDDropView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC870F617B6C99D0092EDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC8710A17B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m in Sources */,
+				1A2B659A17B6CB1C00EA047B /* FDMetadataContainer.m in Sources */,
+				1A5745DF17B8A7B400C12A80 /* FDDataBit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A6FA0C817B5F8AD00EAF2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A6FA0C917B5F8AD00EAF2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A6FA0CB17B5F8AD00EAF2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EXIF Cloner/Misc Sources/EXIF Cloner-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "EXIF Cloner/Supporting Files/EXIF Cloner-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				OTHER_LDFLAGS = "-lexiv2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A6FA0CC17B5F8AD00EAF2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EXIF Cloner/Misc Sources/EXIF Cloner-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "EXIF Cloner/Supporting Files/EXIF Cloner-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				OTHER_LDFLAGS = "-lexiv2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AC8710D17B6C99D0092EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EXIF Cloner Test Suite/Supporting Files/EXIF Cloner Test Suite-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "EXIF Cloner Test Suite/Supporting Files/EXIF Cloner Test Suite-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				OTHER_LDFLAGS = "-lexiv2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1AC8710E17B6C99D0092EDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EXIF Cloner Test Suite/Supporting Files/EXIF Cloner Test Suite-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "EXIF Cloner Test Suite/Supporting Files/EXIF Cloner Test Suite-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				OTHER_LDFLAGS = "-lexiv2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6FA0A817B5F8AD00EAF2A9 /* Build configuration list for PBXProject "EXIF Cloner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6FA0C817B5F8AD00EAF2A9 /* Debug */,
+				1A6FA0C917B5F8AD00EAF2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6FA0CA17B5F8AD00EAF2A9 /* Build configuration list for PBXNativeTarget "EXIF Cloner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6FA0CB17B5F8AD00EAF2A9 /* Debug */,
+				1A6FA0CC17B5F8AD00EAF2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC8710C17B6C99D0092EDD2 /* Build configuration list for PBXNativeTarget "EXIF Cloner Test Suite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC8710D17B6C99D0092EDD2 /* Debug */,
+				1AC8710E17B6C99D0092EDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6FA0A517B5F8AD00EAF2A9 /* Project object */;
+}
