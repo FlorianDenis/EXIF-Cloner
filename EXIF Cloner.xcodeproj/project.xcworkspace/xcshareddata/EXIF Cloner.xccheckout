@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EAC9184F-757E-4DC1-9799-6BF3EB6EDF5B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EXIF Cloner</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F5261906-DE1D-434E-A678-89CEDDC3D918</key>
+		<string>ssh://github.com/FlorianDenis/EXIF-Cloner.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EXIF Cloner.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F5261906-DE1D-434E-A678-89CEDDC3D918</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/FlorianDenis/EXIF-Cloner.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F5261906-DE1D-434E-A678-89CEDDC3D918</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F5261906-DE1D-434E-A678-89CEDDC3D918</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EXIF Cloner</string>
+		</dict>
+	</array>
+</dict>
+</plist>
