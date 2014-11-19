@@ -61,7 +61,7 @@
         NSString *filepath = [bundle pathForResource:filename ofType:@"jpg"];
         
         FDMetadataContainer *container = [FDMetadataContainer metadataForImageAtPath:filepath];
-        STAssertNotNil(container, @"Nil metadata from valid file");
+        XCTAssertNotNil(container, @"Nil metadata from valid file");
 
         NSDictionary *truth = tests[filename];
         NSArray *keys = [truth allKeys];
@@ -70,7 +70,7 @@
         for (NSString *key in keys){
             id known = truth[key];
             id read = container[key];
-            STAssertTrue([[read description] isEqualToString:[known description]], @"Wrong value reading on %@: %@ '%@' != '%@'",filename,key,known,read);
+            XCTAssertTrue([[read description] isEqualToString:[known description]], @"Wrong value reading on %@: %@ '%@' != '%@'",filename,key,known,read);
             
         }
         
@@ -87,7 +87,7 @@
     NSString *filepath = [NSTemporaryDirectory() stringByAppendingPathComponent:filename];
     
     // Try to read metadata from that unexistent file, expect nil
-    STAssertNil([FDMetadataContainer metadataForImageAtPath:filepath], @"Non nil value for reading from unexistent file %@",filepath);
+    XCTAssertNil([FDMetadataContainer metadataForImageAtPath:filepath], @"Non nil value for reading from unexistent file %@",filepath);
     
 }
 
@@ -104,7 +104,7 @@
     [[NSFileManager defaultManager] copyItemAtPath:invalidOriginalFile toPath:filepath error:NULL];
     
     // Try to read metadata from that unvalid file, expect nil
-    STAssertNil([FDMetadataContainer metadataForImageAtPath:filepath], @"Non nil value for reading from invalid file %@",filepath);
+    XCTAssertNil([FDMetadataContainer metadataForImageAtPath:filepath], @"Non nil value for reading from invalid file %@",filepath);
     
 }
 
@@ -133,14 +133,14 @@
         
         // Read metadata from source file
         FDMetadataContainer *container = [FDMetadataContainer metadataForImageAtPath:filepath];
-        STAssertNotNil(container, @"Nil metadata from valid file");
+        XCTAssertNotNil(container, @"Nil metadata from valid file");
         
         // Copy that to the dst, make sure it succeeds
-        STAssertTrue([container saveMetadataToFileAtPath:dstfilepath], @"Nil metadata from valid file");
+        XCTAssertTrue([container saveMetadataToFileAtPath:dstfilepath], @"Nil metadata from valid file");
         
         // Read data from the dst
         FDMetadataContainer *dstcontainer = [FDMetadataContainer metadataForImageAtPath:dstfilepath];
-        STAssertNotNil(dstcontainer, @"Nil metadata from valid file");
+        XCTAssertNotNil(dstcontainer, @"Nil metadata from valid file");
         
         // And make sure the data in the destination matches the one we know is true
         NSDictionary *truth = tests[filename];
@@ -149,7 +149,7 @@
             id known = truth[key];
             id read = dstcontainer[key];
             
-            STAssertTrue([[read description] isEqualToString:[known description]], @"Wrong value reading on %@: %@ '%@' != '%@'",filename,key,known,read);
+            XCTAssertTrue([[read description] isEqualToString:[known description]], @"Wrong value reading on %@: %@ '%@' != '%@'",filename,key,known,read);
             
         }
 
@@ -176,10 +176,10 @@
     
     // Read metadata from source file
     FDMetadataContainer *container = [FDMetadataContainer metadataForImageAtPath:validfilepath];
-    STAssertNotNil(container, @"Nil metadata from valid file");
+    XCTAssertNotNil(container, @"Nil metadata from valid file");
     
     // Check that writing failed
-    STAssertFalse([container saveMetadataToFileAtPath:filepath], @"Writing succeeded on non-existent file");
+    XCTAssertFalse([container saveMetadataToFileAtPath:filepath], @"Writing succeeded on non-existent file");
     
 }
 
@@ -204,10 +204,10 @@
         
     // Read metadata from source file
     FDMetadataContainer *container = [FDMetadataContainer metadataForImageAtPath:validfilepath];
-    STAssertNotNil(container, @"Nil metadata from valid file");
+    XCTAssertNotNil(container, @"Nil metadata from valid file");
 
     // Check that writing failed
-    STAssertFalse([container saveMetadataToFileAtPath:filepath], @"Writing succeeded on invalid file");
+    XCTAssertFalse([container saveMetadataToFileAtPath:filepath], @"Writing succeeded on invalid file");
     
 }
 

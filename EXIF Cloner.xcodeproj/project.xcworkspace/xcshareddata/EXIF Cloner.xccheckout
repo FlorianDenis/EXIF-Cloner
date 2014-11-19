@@ -10,31 +10,31 @@
 	<string>EXIF Cloner</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F5261906-DE1D-434E-A678-89CEDDC3D918</key>
-		<string>ssh://github.com/FlorianDenis/EXIF-Cloner.git</string>
+		<key>E6D5DD44798E028F9F395788303AF69FBCCF1AA5</key>
+		<string>github.com:FlorianDenis/EXIF-Cloner.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>EXIF Cloner.xcodeproj/project.xcworkspace</string>
+	<string>EXIF Cloner.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F5261906-DE1D-434E-A678-89CEDDC3D918</key>
+		<key>E6D5DD44798E028F9F395788303AF69FBCCF1AA5</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/FlorianDenis/EXIF-Cloner.git</string>
+	<string>github.com:FlorianDenis/EXIF-Cloner.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F5261906-DE1D-434E-A678-89CEDDC3D918</string>
+	<string>E6D5DD44798E028F9F395788303AF69FBCCF1AA5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F5261906-DE1D-434E-A678-89CEDDC3D918</string>
+			<string>E6D5DD44798E028F9F395788303AF69FBCCF1AA5</string>
 			<key>IDESourceControlWCCName</key>
-			<string>EXIF Cloner</string>
+			<string>EXIF%20Cloner</string>
 		</dict>
 	</array>
 </dict>

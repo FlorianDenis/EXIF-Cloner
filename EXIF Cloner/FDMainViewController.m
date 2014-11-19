@@ -229,15 +229,13 @@ static NSArray *metadataDisplayPriority = @[
         [self _setImageSelected:YES animated:YES];
     } else {
         // Reading metadata failed, present the user with an alert
-        NSAlert *alert = [NSAlert alertWithMessageText:@"Could not read metadata"
-                                         defaultButton:@"Dismiss"
-                                       alternateButton:nil
-                                           otherButton:nil
-                             informativeTextWithFormat:@"Either the file is corrupted or does not contain any supported metadata format."];
-        [alert beginSheetModalForWindow:_window
-                          modalDelegate:nil
-                         didEndSelector:nil
-                            contextInfo:NULL];
+        NSAlert *alert = [[NSAlert alloc] init];
+        alert.messageText = @"Could not read metadata";
+        alert.informativeText = @"Either the file is corrupted or does not contain any supported metadata format.";
+        [alert addButtonWithTitle:@"Dismiss"];
+        
+
+        [alert beginSheetModalForWindow:_window completionHandler:nil];
     }
     
 }

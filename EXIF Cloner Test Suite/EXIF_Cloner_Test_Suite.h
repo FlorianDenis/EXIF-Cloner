@@ -15,8 +15,8 @@
 //  along with this program. If not, see http://www.gnu.org/licenses/.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface EXIF_Cloner_Test_Suite : SenTestCase
+@interface EXIF_Cloner_Test_Suite : XCTestCase
 
 @end

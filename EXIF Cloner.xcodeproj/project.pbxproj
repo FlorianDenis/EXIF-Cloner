@@ -23,7 +23,6 @@
 		1A6FA0B117B5F8AD00EAF2A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */; };
 		1A6FA0C417B5F8AD00EAF2A9 /* FDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA0C317B5F8AD00EAF2A9 /* FDAppDelegate.m */; };
 		1A9516F017B6BFBE0088EEE2 /* FDMetadataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9516EF17B6BFBE0088EEE2 /* FDMetadataContainer.m */; };
-		1AC870FC17B6C99D0092EDD2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9516F717B6C71A0088EEE2 /* SenTestingKit.framework */; };
 		1AC870FD17B6C99D0092EDD2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */; };
 		1AC8710A17B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8710917B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m */; };
 		1AF22A3C17BB44BE005AB6FA /* FDDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF22A3B17BB44BE005AB6FA /* FDDropView.m */; };
@@ -57,8 +56,7 @@
 		1A6FA0C317B5F8AD00EAF2A9 /* FDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAppDelegate.m; sourceTree = "<group>"; };
 		1A9516EE17B6BFBE0088EEE2 /* FDMetadataContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDMetadataContainer.h; sourceTree = "<group>"; };
 		1A9516EF17B6BFBE0088EEE2 /* FDMetadataContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDMetadataContainer.m; sourceTree = "<group>"; };
-		1A9516F717B6C71A0088EEE2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EXIF Cloner Test Suite.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EXIF Cloner Test Suite.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC8710817B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXIF_Cloner_Test_Suite.h; sourceTree = "<group>"; };
 		1AC8710917B6C99D0092EDD2 /* EXIF_Cloner_Test_Suite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXIF_Cloner_Test_Suite.m; sourceTree = "<group>"; };
 		1AF22A3A17BB44BE005AB6FA /* FDDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDropView.h; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC870FC17B6C99D0092EDD2 /* SenTestingKit.framework in Frameworks */,
 				1AC870FD17B6C99D0092EDD2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				1A6FA0AD17B5F8AD00EAF2A9 /* EXIF Cloner.app */,
-				1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.octest */,
+				1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +177,6 @@
 				1A6FA0B017B5F8AD00EAF2A9 /* Cocoa.framework */,
 				1A5745C517B84F9900C12A80 /* QuartzCore.framework */,
 				1A6FA0B517B5F8AD00EAF2A9 /* Foundation.framework */,
-				1A9516F717B6C71A0088EEE2 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,8 +262,8 @@
 			);
 			name = "EXIF Cloner Test Suite";
 			productName = "EXIF Cloner Test Suite";
-			productReference = 1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 1AC870FB17B6C99D0092EDD2 /* EXIF Cloner Test Suite.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -276,6 +272,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FD;
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Florian Denis";
 			};
@@ -497,7 +494,6 @@
 				);
 				OTHER_LDFLAGS = "-lexiv2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -524,7 +520,6 @@
 				);
 				OTHER_LDFLAGS = "-lexiv2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
